@@ -1,6 +1,13 @@
 h1 {
+  width: 150px;
+  color:DarkOrange;
+  align-content: 'left';
 
-  color:green;
+}
+
+#title_of{
+  width: 150px;
+  left: 0px;
 
 }
 
@@ -10,4 +17,15 @@ h1 {
 
 .second {
   color: magenta;
+}
+
+body {
+  background-image: url('/static/charles-deluvio-pJ1XQ-x271Q-unsplash.jpg');
+background-size: cover;
+}
+
+
+
+.container {
+  background-color: #ffffe6;
 }

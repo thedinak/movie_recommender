@@ -1,11 +1,29 @@
-<h1> your recommendation </h1>
+<head>
+<!-- Content here -->
 
-<p>{% for name in movies %}
-    <li>{{ name }}</li>
-    {% endfor %}
-</p>
-<u1> </u1>
+<title> Dina's Movie Recommender </title>
+
+ <link rel = "stylesheet"
+type = "text/css"
+href = "/static/css/bootstrap.min.css" />
+<link rel = "stylesheet"
+type = "text/css"
+href = "/static/style.css" />
+<script src="/static/js/bootsrap.min.js"></script>
+<html>
+<body>
+<h1> your recommendation </h1>
+<div class="container">
+    <p>{% for name in movies %}
+      <li>{{ name }}</li>
+      {% endfor %}
+    </p>
+    <u1> </u1>
+
+</div>
 
 <img src = '/static/cat.jpg' width = '200'>
 
 <a href= "/">go back</a>
+</body>
+</html>
