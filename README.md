@@ -1,5 +1,5 @@
 # movie_recommender
-Movie recommender implemented through Flask, with PostGres, SQLalchemy, Dask, Scikit-learn and Altair.
+Movie recommender implemented through Flask, based on collaborative filtering.
 
 ## Features
 * Collaborative filtering (**non-negative factorisation**, NMF) with scikit-learn to make recommendations;
