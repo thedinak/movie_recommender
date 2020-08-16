@@ -132,6 +132,6 @@ dmypy.json
 .csv
 
 #other
-.pickle
 lecture_cosine_similarity.ipynb
 nmf_iterrosemary.ipynb
+ORM.ipynb
