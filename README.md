@@ -18,3 +18,6 @@ Movie recommender implemented through Flask, based on collaborative filtering.
 5. Start Flask server 'flask run'
 
 6. Go to http://127.0.0.1:5000/
+
+## Dataset:
+* MoviesLens 100K dataset (https://grouplens.org/datasets/movielens/100k/).
